@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">NewYorkTimes</string>
+    <string name="lcd_med_one_product_manager">LCD MED.ONE Product manager</string>
+    <string name="android_developer">Android developer</string>
+    <string name="icon_med_one">Icon MED.ONE</string>
+    <string name="my_avatar">my_avatar</string>
+    <string name="about_me">Anastasia, was a programming teacher from 2009 to 2015. Then, from 2015 to 2017, she developed the diagnostic system of diseases in C++. Since the summer of 2017, he has been leading the project and is studying Android.</string>
+    <string name="enter_your_message">Enter your message</string>
+    <string name="send_message">Send message</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="instagram">instagram</string>
+    <string name="vkontakte">vkontakte</string>
+    <string name="no_email_app_found">No email App found</string>
+    <string name="send_email">Send email</string>
+    <string name="base_email">stasia_s@rambler.ru</string>
+    <string name="android_academy_exercise_3">Base card feedback</string>
+    <string name="url_linkedin">https://www.linkedin.com/in/%D0%B0%D0%BD%D0%B0%D1%81%D1%82%D0%B0%D1%81%D0%B8%D1%8F-stasia-s-60209667/</string>
+    <string name="url_instagram">https://www.instagram.com/anastasia_syusyukina/</string>
+    <string name="url_vkontakte">https://vk.com/id2662293</string>
+</resources>
