@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="2"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="@dimen/base_margin"
         android:src="@drawable/my_avatar"
         android:scaleType="centerCrop"
         android:contentDescription="@string/my_avatar"/>
@@ -24,15 +24,15 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginStart="50dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="@dimen/base_margin"
             android:focusableInTouchMode="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp">
+                android:layout_marginTop="@dimen/base_margin"
+                android:layout_marginBottom="@dimen/base_margin">
 
                 <ImageView
                     android:layout_width="28dp"
@@ -44,7 +44,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="16sp"
+                    android:textSize="@dimen/base_text_size"
                     android:text="@string/lcd_med_one_product_manager"/>
             </LinearLayout>
 
@@ -52,7 +52,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginBottom="16dp">
+                android:layout_marginBottom="@dimen/base_margin">
                 <ImageView
                     android:layout_width="28dp"
                     android:layout_height="28dp"
@@ -63,7 +63,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="16sp"
+                    android:textSize="@dimen/base_text_size"
                     android:text="@string/android_developer"/>
             </LinearLayout>
 
@@ -71,19 +71,19 @@
                 android:layout_width="fill_parent"
                 android:layout_height="1dp"
                 android:background="@color/gray"
-                android:layout_marginBottom="16dp"/>
+                android:layout_marginBottom="@dimen/base_margin"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
+                android:layout_marginBottom="@dimen/base_margin"
                 android:text="@string/about_me"/>
 
             <View
                 android:layout_width="fill_parent"
                 android:layout_height="1dp"
                 android:background="@color/gray"
-                android:layout_marginBottom="16dp"/>
+                android:layout_marginBottom="@dimen/base_margin"/>
 
             <EditText
                 android:id="@+id/et_message"
@@ -91,15 +91,15 @@
                 android:layout_height="wrap_content"
                 android:inputType="text"
                 android:hint="@string/enter_your_message"
-                android:layout_marginBottom="16dp"
-                android:textSize="16sp"/>
+                android:layout_marginBottom="@dimen/base_margin"
+                android:textSize="@dimen/base_text_size"/>
 
             <Button
                 android:id="@+id/btn_send_message"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
-                android:layout_marginBottom="16dp"
+                android:layout_marginBottom="@dimen/base_margin"
                 android:background="@color/transparent"
                 android:text="@string/send_message" />
 
@@ -108,7 +108,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginBottom="16dp"
+                android:layout_marginBottom="@dimen/base_margin"
                 android:gravity="center">
 
                 <ImageButton
