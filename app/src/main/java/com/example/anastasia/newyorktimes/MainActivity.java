@@ -11,11 +11,11 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    EditText etMessage;
-    Button btnSendMessage;
-    ImageButton ibVk;
-    ImageButton ibLinkedIn;
-    ImageButton ibInstagram;
+    private EditText etMessage;
+    private Button btnSendMessage;
+    private ImageButton ibVk;
+    private ImageButton ibLinkedIn;
+    private ImageButton ibInstagram;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
